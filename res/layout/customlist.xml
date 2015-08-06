@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- Pwede itong maging listview... -->
+    <ImageView android:id="@+id/listicon"
+        android:layout_width="50dip"
+        android:layout_height="50dip" 
+        android:layout_margin="3px"/>
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="258dip"
+    android:layout_height="fill_parent">
+
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_height="23dip" android:layout_width="fill_parent">
+  		
+  		<TextView android:id="@+id/listtext"
+        android:layout_height="wrap_content" 
+        android:layout_width="130dip"
+        android:textSize="14dip"
+        android:text="Text" android:layout_marginTop="2px" android:layout_marginLeft="3px"/>
+        
+        <TextView android:id="@+id/listdate"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:textSize="12dip"
+        android:text="Date"
+        android:layout_toRightOf="@+id/listtext"
+        android:layout_marginTop="2px"
+        />
+        
+    </RelativeLayout>
+
+		<TextView android:id="@+id/listsubtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="11dip"
+        android:text="Sub Text" android:layout_marginTop="1px" android:layout_marginLeft="3px" 
+        android:textColor="#888888"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

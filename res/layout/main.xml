@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:text="PASSWORD" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:visibility="invisible">
+</TextView>
+<Button android:id="@+id/settings_bt" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:drawableTop="@drawable/settings"
+android:text="SETTINGS"
+>
+</Button>
+<Button android:id="@+id/view_bt" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:drawableTop="@drawable/monitor"
+android:text="VIEW MESSAGES"
+>
+</Button>
+<Button android:id="@+id/sync_bt" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:drawableTop="@drawable/sun"
+android:text="SYNC"
+>
+</Button>
+<Button android:text="view all" 
+android:id="@+id/viewall" 
+android:visibility="invisible"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+</Button>
+<TextView android:text="" android:id="@+id/test" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    
+    
+<TextView 
+android:text="NAME: " 
+android:id="@+id/TextView01" 
+android:layout_marginRight="45dp" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+android:text="" 
+android:id="@+id/EditText01" 
+android:layout_below="@+id/TextView01"
+android:layout_width="200px" 
+android:layout_height="wrap_content">
+</EditText>
+
+<TextView 
+android:text="KEYWORD: " 
+android:id="@+id/TextView02" 
+android:layout_below="@+id/EditText01"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+android:text="" 
+android:id="@+id/EditText02" 
+android:layout_below="@+id/TextView02"
+android:layout_width="200px" 
+android:layout_height="wrap_content">
+
+</EditText>
+
+
+
+</RelativeLayout>
+
+
+<TextView 
+android:text="START DATE IS: " 
+android:id="@+id/startdate_text" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="SELECT START DATE" android:id="@+id/startdate" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+<TextView 
+android:text="END DATE IS: " 
+android:id="@+id/enddate_text" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="SELECT END DATE" android:id="@+id/enddate" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+<Button 
+android:text="VIEW NOW!" 
+android:id="@+id/view" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+</Button>
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

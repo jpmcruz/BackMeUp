@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:text="WELCOME TO SMS BACKMEUP! Input your email address and choose a password to setup your account."
+android:textSize="20sp"
+android:typeface="serif"
+android:textStyle="bold|italic"
+android:gravity="center_horizontal" 
+android:id="@+id/user" 
+android:textColor="#ff4500"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="PASSWORD" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:visibility="invisible">
+</TextView>
+
+<TextView android:text="EMAIL" 
+android:id="@+id/user" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<EditText android:text="" 
+android:id="@+id/username" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+</EditText>
+
+<TextView android:text="PASSWORD" 
+android:id="@+id/pass" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+<EditText android:text="" 
+android:id="@+id/password" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+</EditText>
+
+<TextView android:text="PASSWORD" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:visibility="invisible">
+</TextView>
+<TextView android:text="PASSWORD" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:visibility="invisible">
+</TextView>
+
+<Button android:text="CREATE MY ACCOUNT" 
+android:id="@+id/ok" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:textSize="20sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:textColor="#ff000000"
+android:gravity="center">
+</Button>
+
+<Button android:text="CANCEL" 
+android:id="@+id/cancel" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:textSize="20sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:textColor="#ff000000"
+android:gravity="center">
+
+
+
+>
+</Button>
+</LinearLayout>

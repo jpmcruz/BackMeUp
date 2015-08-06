@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView 
+	android:text="OLD PASSWORD" 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+<EditText
+	android:text="" 
+	android:id="@+id/oldpass" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+
+
+<TextView 
+	android:text="NEW PASSWORD" 
+	android:id="@+id/TextView02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+<EditText
+	android:text="" 
+	android:id="@+id/newpass" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+
+<TextView 
+	android:text="CONFIRM PASSWORD" 
+	android:id="@+id/TextView03" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+<EditText
+	android:text="" 
+	android:id="@+id/confirmpass" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+<TextView 
+	android:text="SETTINGS" 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:visibility="invisible">
+</TextView>
+<Button 
+	android:text="CHANGE PASSWORD" 
+	android:id="@+id/change" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+
+</LinearLayout>
+
